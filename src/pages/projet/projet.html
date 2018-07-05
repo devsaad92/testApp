@@ -1,0 +1,39 @@
+<!--
+  Generated template for the ProjetPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-icon float-right name="more"></ion-icon>
+    <ion-title>Sélection du projet</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-grid>
+      <ion-item text-center class="blue">
+      <ion-row>
+        <ion-col col-3>Désignation du projet</ion-col>
+        <ion-col col-3>N° Affaire </ion-col>
+        <ion-col col-3>Client</ion-col>
+        <ion-col col-3>Lieux</ion-col>
+      </ion-row>
+      </ion-item>
+      <ion-item text-center *ngFor="let i of arr">
+      <ion-row>
+        <ion-col col-3>Montage confinement I46</ion-col>
+        <ion-col col-3>18-110</ion-col>
+        <ion-col col-3>EDF</ion-col>
+        <ion-col col-3>Flamanville</ion-col>
+      </ion-row>
+      </ion-item>
+    </ion-grid>
+  </ion-list>
+</ion-content>
