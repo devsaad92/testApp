@@ -1,0 +1,19 @@
+page-login {
+
+    #login {
+        background: color($colors, secondary);
+    }
+    .marginTop {
+      margin-top: 250px;
+      margin-right: 200px;
+      margin-left: 200px;
+    }
+
+    .icon {
+        height: 50px;
+        width: 50px;
+        background: url(assets/imgs/ionic.png);
+        background-size: cover;
+        
+    }
+}

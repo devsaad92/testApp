@@ -6,6 +6,7 @@ import { Nav, Platform } from 'ionic-angular';
 import { DocumentsPage } from './../pages/documents/documents';
 import { EquipementPage } from './../pages/equipement/equipement';
 import { FlowPage } from './../pages/flow/flow';
+import { LoginPage } from './../pages/login/login';
 import { ProjetPage } from './../pages/projet/projet';
 import { SuiviPage } from './../pages/suivi/suivi';
 
@@ -16,7 +17,7 @@ import { SuiviPage } from './../pages/suivi/suivi';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = ProjetPage;
+  rootPage: any = LoginPage;
 
   pages: Array<{title: string, component: any, icon?: string}>;
 
@@ -43,4 +44,5 @@ export class MyApp {
   openPage(page) {
     this.nav.setRoot(page.component);
   }
+  
 }

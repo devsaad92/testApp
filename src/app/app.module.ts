@@ -8,6 +8,7 @@ import { DocumentsPage } from './../pages/documents/documents';
 import { EquipementPage } from './../pages/equipement/equipement';
 import { FlowItemPage } from './../pages/flow-item/flow-item';
 import { FlowPage } from './../pages/flow/flow';
+import { LoginPage } from './../pages/login/login';
 import { ProjetPage } from './../pages/projet/projet';
 import { SuiviPage } from './../pages/suivi/suivi';
 import { MyApp } from './app.component';
@@ -21,6 +22,7 @@ import { MyApp } from './app.component';
     SuiviPage,
     DocumentsPage,
     FlowItemPage,
+    LoginPage,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +37,7 @@ import { MyApp } from './app.component';
     SuiviPage,
     DocumentsPage,
     FlowItemPage,
+    LoginPage
   ],
   providers: [
     StatusBar,
